@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid cornflowerblue;
+}
+
+.container {
+    width: 52.2%;
+    height: 3rem;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 5px;
+    margin: auto;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.options {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+button,input {
+    width: 3rem;
+    height: 2rem;
+    font-size: 23px;
+    margin-right: 6px;
+}
+button#cancel{
+    position: absolute;
+    right: 3px;
+}
+
+/*
+change 3 to 4 vice versa then, you will iunderstand the difference and reason touse the button.cancel
+button:nth-child(4){
+    position: absolute;
+    right: 3px;
+}
+*/
